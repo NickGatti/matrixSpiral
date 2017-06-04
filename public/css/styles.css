@@ -1,0 +1,57 @@
+.row {
+    display: flex;
+    justify-content: center;
+    flex-flow: wrap;
+    flex-direction: row;
+    background: skyblue;
+    width: 100%;
+}
+
+.cell {
+    display: flex;
+    justify-content: center;
+    background: deepskyblue;
+    width: 75px;
+}
+
+#matrix {
+    margin: 1rem;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    border: 1px solid black;
+    background: lightgrey;
+}
+
+#original {
+    display: flex;
+    background: orange;
+    overflow: auto;
+    padding: 2px;
+}
+
+#answer {
+    display: flex;
+    background: orange;
+    overflow: auto;
+    padding: 4px;
+}
+
+#outputWrap {
+    border: 2px solid black;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+#formWrapper {
+    margin: 1rem;
+}
+
+#wrapper {
+    margin: 1rem;
+}
+
+* {
+    font-size: 18px;
+}

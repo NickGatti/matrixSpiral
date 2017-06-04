@@ -138,21 +138,21 @@ function doWork(container, original) {
 
 __webpack_require__(0);
 
-console.log('School examples loaded'); /*
-                                       
-                                       import './array.js';
-                                       import './class.js';
-                                       import './conditions.js';
-                                       import './function.js';
-                                       import './loop.js';
-                                       import './objects.js';
-                                       import './recursiveFn.js';
-                                       import './es6ClassSyntax.js';
-                                       import './fizzbuzz.js';
-                                       import './beancount.js';
-                                       import './whilesnail.js';
-                                       
-                                       */
+console.log('Snail! loaded...'); /*
+                                 
+                                 import './array.js';
+                                 import './class.js';
+                                 import './conditions.js';
+                                 import './function.js';
+                                 import './loop.js';
+                                 import './objects.js';
+                                 import './recursiveFn.js';
+                                 import './es6ClassSyntax.js';
+                                 import './fizzbuzz.js';
+                                 import './beancount.js';
+                                 import './whilesnail.js';
+                                 
+                                 */
 
 /***/ })
 /******/ ]);

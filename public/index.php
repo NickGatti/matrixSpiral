@@ -21,6 +21,7 @@
             <li>Exercise taken from my teachers at school (commonly asked interview question)</li>
             <li>Link given here: <a href="http://www.geeksforgeeks.org/print-a-given-matrix-in-spiral-form/">http://www.geeksforgeeks.org/print-a-given-matrix-in-spiral-form/</a></li>
             <li>Form submission sends matrix length to PHP backend which builds the matrix and html and sends it back where javascript takes care of the rest</li>
+            <li>Github link to example code <a href="https://github.com/NickGatti/matrixSpiral">https://github.com/NickGatti/matrixSpiral</a></li>
             </ul>
         </blockquote>
         

@@ -1,6 +1,12 @@
+html {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    text-decoration: none;
+}
+
 .row {
     display: flex;
     justify-content: center;
+    align-items: stretch;
     flex-direction: row;
     background: skyblue;
     width: 100%;
@@ -8,29 +14,25 @@
 
 .cell {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    align-items: stretch;
     background: deepskyblue;
     width: 75px;
 }
 
 #matrix {
     margin: 1rem;
-    display: flex;
-    flex-flow: wrap;
-    justify-content: center;
     border: 1px solid black;
     background: lightgrey;
 }
 
 #original {
-    display: flex;
     background: orange;
     overflow: auto;
     padding: 2px;
 }
 
 #answer {
-    display: flex;
     background: orange;
     overflow: auto;
     padding: 4px;
@@ -39,19 +41,17 @@
 #outputWrap {
     border: 2px solid black;
     margin: 1rem;
-    display: flex;
-    flex-direction: column;
 }
 
 #formWrapper {
-    margin: 1rem;
+   display: flex;
+   justify-content: center;
+   padding-bottom: 2rem;
+   padding-top: 1rem;
 }
 
 #wrapper {
-    margin: 1rem;
-    display: flex;
-    flex-direction: column;
-    width: 100%;
+    margin: 0 auto;
 }
 
 a:hover {
@@ -59,18 +59,25 @@ a:hover {
 }
 
 a:visited {
-    color: blue;
+    text-decoration: none;
 }
 
 a:active {
-    color: blue;
+    text-decoration: none;
 }
 
 a:link {
-    color: blue;
+    text-decoration: none;
 }
 
-* {
+html {
     font-size: 18px;
+    background: whitesmoke;
+    padding-left: 2rem;
+    
+}
+
+body {
+    width: 95vw;
     text-decoration: none;
 }

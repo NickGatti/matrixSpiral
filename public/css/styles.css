@@ -1,7 +1,6 @@
 .row {
     display: flex;
     justify-content: center;
-    flex-flow: wrap;
     flex-direction: row;
     background: skyblue;
     width: 100%;
@@ -50,8 +49,28 @@
 
 #wrapper {
     margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+a:hover {
+    color: salmon;
+}
+
+a:visited {
+    color: blue;
+}
+
+a:active {
+    color: blue;
+}
+
+a:link {
+    color: blue;
 }
 
 * {
     font-size: 18px;
+    text-decoration: none;
 }
